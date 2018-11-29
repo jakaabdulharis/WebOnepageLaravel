@@ -20,7 +20,7 @@
 Route::get('/contoh1/{nama}', function ($nama) {
     return view('contoh1',['nama'=>$nama]);
 });
-
+ 
 //route untuk memanggil view contoh2.php
 Route::get('/contoh2/{nama}', function ($nama) {
     return view('contoh2',['nama'=>$nama]);
